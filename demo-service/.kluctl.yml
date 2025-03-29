@@ -1,0 +1,8 @@
+discriminator: demo-service-{{ target.name }}
+
+targets:
+  - name: test
+    context: k3d-test
+
+  - name: acpt
+    context: k3d-acpt
