@@ -1,4 +1,4 @@
-discriminator: camel-service-{{ target.name }}
+discriminator: nextgen-service-{{ target.name }}
 
 targets:
   - name: test
