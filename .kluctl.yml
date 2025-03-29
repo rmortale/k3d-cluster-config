@@ -1,4 +1,4 @@
-discriminator: demo-service-{{ target.name }}
+discriminator: camel-service-{{ target.name }}
 
 targets:
   - name: test
