@@ -1,0 +1,6 @@
+resources:
+  - deploy.yml
+  - IntegrationPlatform.yaml
+  - secret.yaml
+
+namespace: camel-k
