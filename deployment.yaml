@@ -1,9 +1,12 @@
 deployments:
   - path: namespaces
   - barrier: true # ensure namespaces are applied before we continue
-  - include: apps
   - include: infra
+  - include: apps
+  
 
 commonLabels:
   examples.kluctl.io/deployment-project: "nextgen-service"
   examples.kluctl.io/deployment-target: "{{ target.name }}"
+
+#overrideNamespace: ms-demo-{{ target.name }}

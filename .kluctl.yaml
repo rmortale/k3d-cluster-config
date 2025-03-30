@@ -1,6 +1,9 @@
 discriminator: nextgen-service-{{ target.name }}
 
 targets:
+  - name: devt
+    context: k3d-devt
+
   - name: test
     context: k3d-test
 

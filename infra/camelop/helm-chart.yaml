@@ -1,0 +1,7 @@
+helmChart:
+  repo: https://apache.github.io/camel-k/charts
+  chartName: camel-k
+  chartVersion: 2.6.0
+  releaseName: camel-k
+  namespace: camel-k
+  output: deploy.yml
