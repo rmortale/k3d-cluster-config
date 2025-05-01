@@ -13,3 +13,10 @@ kluctl deploy -t devt
 ## Secrets
 This repo uses [git-crypt](https://www.agwa.name/projects/git-crypt/) to encrypt secrets.
 
+How-to [manage your secrets](https://dev.to/heroku/how-to-manage-your-secrets-with-git-crypt-56ih)
+
+### libssl missing error
+Install with:
+```
+wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.24_amd64.deb && sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2.24_amd64.deb
+```
