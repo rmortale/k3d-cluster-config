@@ -1,4 +1,4 @@
-discriminator: nextgen-service-{{ target.name }}
+discriminator: ng-service-{{ target.name }}
 
 targets:
   - name: devt

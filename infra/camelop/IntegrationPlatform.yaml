@@ -6,6 +6,10 @@ metadata:
   name: camel-k
 spec:
   build:
+    buildConfiguration:
+      platforms:
+        - linux/amd64
+        - linux/arm64
     registry:
       address: ghcr.io/rmortale
       secret: registry-secret

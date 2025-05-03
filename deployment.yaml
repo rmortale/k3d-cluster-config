@@ -2,6 +2,7 @@ deployments:
   - path: namespaces
   - barrier: true # ensure namespaces are applied before we continue
   - include: infra
+  - barrier: true # ensure namespaces are applied before we continue
   - include: apps
   
 
